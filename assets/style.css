@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+
+/* NAV BAR */
+
+header {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar ul {
+    text-align: center;
+}
+
+.navbar h1 {
+    display: flex;
+    justify-content: center;
+    flex-grow: 2;
+    padding-left: 20px;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: none;
+}
+
+.la-bars {
+    border: 1px white solid;
+    border-radius: 2px;
+    padding: 1px;
+}

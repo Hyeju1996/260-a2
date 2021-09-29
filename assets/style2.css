@@ -1,0 +1,126 @@
+                        * {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        body {
+                            background-color: white;
+                        }
+                        
+                        nav {
+                            width: 100%;
+                            height: 100px;
+                            background-color: black;
+                        }
+                        
+                        ul {
+                            margin-left: 0px;
+                        }
+                        
+                        ul li {
+                            list-style: none;
+                            display: inline-block;
+                            float: right;
+                            line-height: 100px;
+                        }
+                        
+                        ul li a {
+                            text-decoration: none;
+                            font-size: 25x;
+                            font-family: Arial, Helvetica, sans-serif;
+                            color: white;
+                            padding: 0 20px;
+                        }
+                        
+                        * {
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                        }
+                        
+                        a {
+                            text-decoration: none;
+                            color: orange;
+                        }
+                        
+                        h2 {
+                            color: #000;
+                            margin: 2rem 0 .5rem;
+                            font-size: 1.25rem;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                        }
+                        
+                        .cards {
+                            display: grid;
+                            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                            /* see notes below */
+                            grid-auto-rows: minmax(200px, auto);
+                            grid-gap: 1rem;
+                        }
+                        
+                        .card {
+                            /*height: 200px;*/
+                            /*background: red;*/
+                            border: 2px solid #e7e7e7;
+                            border-radius: 4px;
+                            padding: .5rem;
+                            -webkit-animation: 0 2px 2px rgba(0, 0, 0, 0.15);
+                            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+                            display: flex;
+                            /* -webkit-box-orient: vertical; */
+                            /* -webkit-box-direction: normal; */
+                            -ms-flex-direction: column;
+                            flex-direction: column;
+                            position: relative;
+                            color: #5d5e5e;
+                        }
+                        /* li item */
+                        
+                        .thumbnail img {
+                            fill: #c7c4c4;
+                            height: 135px;
+                            opacity: .25;
+                        }
+                        
+                        .card-content {
+                            font-size: .75rem;
+                            display: flex;
+                            -webkit-box-orient: vertical;
+                            -webkit-box-direction: normal;
+                            -ms-flex-direction: column;
+                            flex-direction: column;
+                            -webkit-box-flex: 1;
+                            -ms-flex: 1;
+                            flex: 1;
+                        }
+                        
+                        .panel.card-panel .panel-header {
+                            background-color: #ffffff;
+                            font-size: .75rem;
+                            font-weight: 400;
+                            height: 25px !important;
+                        }
+                        
+                        h3 {
+                            text-align: center;
+                            border-radius: 20px;
+                            background-color: gray;
+                            margin: 0 auto;
+                            padding: 20px;
+                            max-width: 75ch;
+                            text-align: center;
+                        }
+                        
+                        p {
+                            max-width: 100ch;
+                            margin-top: 0;
+                        }
+                        
+                        .footer {
+                            background-color: black;
+                            color: White;
+                            border: 30ch;
+                            text-align: center;
+                            padding: 20px 30px;
+                        }
